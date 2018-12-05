@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/search/main",
+    "pages/detail/main",
+    "pages/list/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "食戟",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a3a3a3",
+    "selectedColor": "#ff8244",
+    "list": [{
+      "pagePath": "pages/index/main",
+      "text": "菜谱分类",
+      "iconPath": "./images/type.png",
+      "selectedIconPath": "./images/type_sel.png"
+    }, {
+      "pagePath": "pages/search/main",
+      "text": "菜谱搜索",
+      "iconPath": "./images/search.png",
+      "selectedIconPath": "./images/search_sel.png"
+    }]
+  }
+}
